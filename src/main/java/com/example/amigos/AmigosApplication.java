@@ -18,6 +18,7 @@ public class AmigosApplication {
     CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
         return args -> {
             studentRepository.save(new Student().setFirstName("Viktor"));
+            studentRepository.save(new Student().setFirstName("Max"));
         };
     }
 

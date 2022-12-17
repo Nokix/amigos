@@ -26,4 +26,12 @@ public class Student {
         this.firstName = firstName;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                '}';
+    }
 }
